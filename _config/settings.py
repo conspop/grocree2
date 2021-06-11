@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'families',
     'ingredients',
     'recipes',
-    'users'
 ]
 
 MIDDLEWARE = [
@@ -73,8 +72,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = '_config.wsgi.application'
-
-AUTH_USER_MODEL = "users.User"
 
 
 # Database
